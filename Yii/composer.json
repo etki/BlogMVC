@@ -20,6 +20,6 @@
     },
     "require-dev": {
         "ext-sqlite3": "*",
-        "codeception/codeception": "dev-master"
+        "codeception/codeception": "2.1.x-dev"
     }
 }

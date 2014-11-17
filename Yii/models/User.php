@@ -285,7 +285,7 @@ class User extends ActiveRecordLayer
      */
     public function relations()
     {
-        $commentTable = Comment::model()->tableName();
+        $commentTable = \Comment::model()->tableName();
         return array(
             'posts' => array(self::HAS_MANY, 'Post', 'user_id'),
             'postCount' => array(self::STAT, 'Post', 'user_id'),
